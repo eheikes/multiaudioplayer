@@ -5,12 +5,12 @@ Plugin URI: https://github.com/eheikes/multiaudioplayer
 Description: Multiple-track audio player.
 Author: Eric Heikes
 Author URI: http://ericheikes.com/
-Version: 1.0.0
+Version: 1.0.1
 License: Apache-2.0
 License URI: http://www.apache.org/licenses/LICENSE-2.0
 */
 
-define('MULTIAUDIOPLAYER_VERSION', '1.0.0');
+define('MULTIAUDIOPLAYER_VERSION', '1.0.1');
 define('SOUNDMANAGER_VERSION', '2.97a.20150601');
 
 class MultiAudioPlayer {
