@@ -11,7 +11,7 @@ Audio player for WordPress, based on the [SoundManager 2](http://www.schillmania
 Use the `multiaudio` shortcode to embed the player in your page/post. The contents of the shortcode should be a list of audio files.
 
 ```html
-[multiaudio full-width playlist-open]
+[multiaudio fullwidth playlist]
 <ul>
   <li><a href="http://freshly-ground.com/data/audio/sm2/SonReal%20-%20People%20Asking.mp3"><b>SonReal</b> - People Asking <span class="label">Explicit</span></a></li>
   <li><a href="http://freshly-ground.com/data/audio/sm2/SonReal%20-%20Already%20There%20Remix%20ft.%20Rich%20Kidd%2C%20Saukrates.mp3"><b>SonReal</b> - Already There Remix ft. Rich Kidd, Saukrates <span class="label">Explicit</span></a></li>
