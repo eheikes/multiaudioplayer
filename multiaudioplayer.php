@@ -10,6 +10,7 @@ License: Apache-2.0
 License URI: http://www.apache.org/licenses/LICENSE-2.0
 */
 
+define('MULTIAUDIOPLAYER_VERSION', '1.0.0');
 define('SOUNDMANAGER_VERSION', '2.97a.20150601');
 
 class MultiAudioPlayer {
@@ -96,7 +97,7 @@ class MultiAudioPlayer {
       'multiaudioplayer',
       plugins_url('/js/multiaudioplayer.js',  __FILE__),
       array('bar-ui'),
-      '1.0'
+      MULTIAUDIOPLAYER_VERSION
     );
   }
 
