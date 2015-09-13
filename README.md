@@ -4,7 +4,7 @@ Audio player for WordPress, based on the [SoundManager 2](http://www.schillmania
 
 ## Installation
 
-Download the player files and [manually install them](https://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation) into the `wp-content/plugins` folder of your website.
+[Download the player files](https://github.com/eheikes/multiaudioplayer/releases) and [manually install them](https://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation) into the `wp-content/plugins` folder of your website.
 
 ## Usage
 
