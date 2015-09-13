@@ -39,22 +39,22 @@ class MultiAudioPlayer {
 
   public static function createPlayer($attrs, $content = '') {
     $opts = shortcode_atts(array(
-      'bg-color' => '#2288cc',
-      'full-width' => true,
-      'playlist-open' => true,
+      'bgcolor' => '#2288cc',
+      'fullwidth' => true,
+      'playlist' => true,
       'text' => 'light', // dark or light
       'texture' => 'transparent', // color or url()
       'theme' => 'standard', // standard or flat
     ), $attrs);
 
     // Wordpress can't do boolean attributes. >:(
-    if (!in_array('full-width', $attrs)) { $opts['full-width'] = false; }
-    if (!in_array('playlist-open', $attrs)) { $opts['playlist-open'] = false; }
+    if (!in_array('fullwidth', $attrs)) { $opts['fullwidth'] = false; }
+    if (!in_array('playlist', $attrs)) { $opts['playlist'] = false; }
 
     // Compile the list of CSS classes for the player.
     $classes = array();
-    if ($opts['full-width']) { $classes[] = 'full-width'; }
-    if ($opts['playlist-open']) { $classes[] = 'playlist-open'; }
+    if ($opts['fullwidth']) { $classes[] = 'full-width'; }
+    if ($opts['playlist']) { $classes[] = 'playlist-open'; }
     if ($opts['text'] == 'dark') { $classes[] = 'dark-text'; }
     if ($opts['texture'] != 'transparent') { $classes[] = 'textured'; }
     if ($opts['theme'] == 'flat') { $classes[] = 'flat'; }
@@ -65,7 +65,7 @@ class MultiAudioPlayer {
 
     // Return the player HTML.
     $templateData = array(
-      'bgcolor' => $opts['bg-color'],
+      'bgcolor' => $opts['bgcolor'],
       'classes' => join(' ', $classes),
       'content' => $content,
       'texture' => $opts['texture'],

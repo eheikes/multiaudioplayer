@@ -21,14 +21,14 @@ Use the `multiaudio` shortcode to embed the player in your page/post. The conten
 
 Shortcode options:
 
-* `bg-color` -- background color of the player (e.g. `#2288cc` or `red`)
-* `full-width` -- makes the player take the full width of the container
-* `playlist-open` -- starts with the playlist open
+* `bgcolor` -- background color of the player (e.g. `#2288cc` or `red`)
+* `fullwidth` -- makes the player take the full width of the container
+* `playlist` -- starts with the playlist open
 * `text` -- color of the player's text (`dark` or `light`)
 * `texture` -- background texture (color or `url(...)`), defaults to `transparent`
 * `theme` -- general appearance of the player (`standard` or `flat`)
 
-The `full-width` and `playlist-open` options do not take any values. (See the example above.)
+The `fullwidth` and `playlist` options do not take any values. (See the example above.)
 
 # License
 
