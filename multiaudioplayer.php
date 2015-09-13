@@ -47,6 +47,10 @@ class MultiAudioPlayer {
       'theme' => 'standard', // standard or flat
     ), $attrs);
 
+    // Wordpress can't do boolean attributes. >:(
+    if (!in_array('full-width', $attrs)) { $opts['full-width'] = false; }
+    if (!in_array('playlist-open', $attrs)) { $opts['playlist-open'] = false; }
+
     // Compile the list of CSS classes for the player.
     $classes = array();
     if ($opts['full-width']) { $classes[] = 'full-width'; }

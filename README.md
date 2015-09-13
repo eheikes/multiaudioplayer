@@ -28,6 +28,8 @@ Shortcode options:
 * `texture` -- background texture (color or `url(...)`), defaults to `transparent`
 * `theme` -- general appearance of the player (`standard` or `flat`)
 
+The `full-width` and `playlist-open` options do not take any values. (See the example above.)
+
 # License
 
 Copyright 2015 Eric Heikes.
